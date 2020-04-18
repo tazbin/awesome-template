@@ -1,0 +1,162 @@
+body {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fixedTop {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.6s ease;
+    margin-top: -23px;
+}
+
+
+/* top-bar */
+
+.top-bar {
+    height: 23px;
+    font-size: 12px;
+    padding-top: 2px;
+    background-color: #f0eeee;
+}
+
+.topbar-hide {
+    display: none;
+}
+
+.top-bar ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.top-bar ul li a {
+    text-decoration: none;
+    color: rgb(95, 93, 106);
+}
+
+
+/* top-bar */
+
+.owl-carousel {
+    text-align: center;
+}
+
+.owl-carousel .item {
+    background-color: gold;
+    margin: 10px;
+    padding: 1rem;
+}
+
+.owl-theme .owl-dots .owl-dot span,
+.owl-theme .owl-dots .owl-dot span {
+    /* height: 15px; */
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: blueviolet;
+    transition: 0.6s ease;
+    outline: none;
+    border: none;
+}
+
+.cara {
+    /* background-color: burlywood; */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.cara .img {
+    margin-bottom: 10px;
+}
+
+.cara img {
+    border-radius: 5px;
+}
+
+.cara .text {
+    text-align: left;
+}
+
+.card h4 {
+    font-size: 14px;
+}
+
+.cara p {
+    font-size: 12px;
+}
+
+.parent-container {
+    margin: auto;
+    text-align: center;
+}
+
+.pop-img img {
+    width: 100%;
+}
+
+.pop-img img {
+    width: 100%;
+    margin-top: 30px;
+    transition: 0.3s ease;
+}
+
+.pop-img img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+
+/* isotop */
+
+.button-group button {
+    padding: 0px 10px 0px 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+    outline: none;
+    border-radius: 4px;
+}
+
+.button-group .active {
+    border: 1px solid blueviolet;
+    color: white;
+    background-color: blueviolet;
+}
+
+.button-group button:hover {
+    border: 1px solid blueviolet;
+    color: white;
+    background-color: blueviolet;
+}
+
+.grid-item {
+    margin: 5px;
+    padding: 10px;
+    width: 24%;
+    color: white
+}
+
+.laptop {
+    background-color: brown;
+}
+
+.desktop {
+    background-color: cornflowerblue;
+}
+
+.mobile {
+    background-color: chartreuse;
+}
